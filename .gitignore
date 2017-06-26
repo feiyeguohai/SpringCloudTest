@@ -23,7 +23,9 @@ nbdist/
 
 # maven ignore
 target/
+!*.mvn/wrapper/maven-wrapper.jar
 .mvn/
+
 *.jar
 *.war
 *.zip
