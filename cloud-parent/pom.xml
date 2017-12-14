@@ -12,7 +12,7 @@
 		<module>../register-server</module>
 		<module>../register_client</module>
 		<module>../service-zuul</module>
-    <module>service-config</module>
+    	<module>service-config</module>
   </modules>
 
 	<properties>
