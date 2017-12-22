@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableDiscoveryClient
 @RefreshScope
 public class ServiceConfigClientBusApplication {
+	
+	
+	/*
+	 * 发送post请求/admin/bus/refresh,可以刷新各client中的值
+	 */
 
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceConfigClientBusApplication.class, args);
