@@ -1,0 +1,16 @@
+server:
+  port: 8751
+spring:
+  profiles: peer1
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8752/eureka/
+  server:
+    enableSelfPreservation: false   # 设为false，关闭自我保护
+    eviction-interval-timer-in-ms: 50000  # 清理间隔（单位毫秒，默认是60*1000）
+    
+    
+
